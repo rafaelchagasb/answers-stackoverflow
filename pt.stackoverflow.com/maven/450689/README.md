@@ -11,3 +11,4 @@ Falta você definir a versão da dependência **com.fasterxml.jackson**
 	    <type>pom</type>
     </dependency>
 
+ 
