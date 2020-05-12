@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        html, body {margin: 0; height: 100%; overflow: hidden}
+    </style>
+  </head>
+  <body>
+      <iframe id="content" src="https://www.restaurantlogin.com/ordering/restaurant/menu?company_uid=5ae31451-e048-4713-af53-3a1f9c5d738a">
+        </iframe>
+  </body>
+</html>
+
+<script>
+    window.onload = (event) => {
+        var widthPage = document.getElementsByTagName('body')[0].clientWidth;
+        var heightPage = document.getElementsByTagName('body')[0].clientHeight;
+
+        document.getElementById('content').style.height = heightPage + "px";
+        document.getElementById('content').style.width = widthPage + "px";
+    };
+
+</script> 
