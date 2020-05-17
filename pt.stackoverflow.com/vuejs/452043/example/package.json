@@ -1,5 +1,5 @@
 {
-  "name": "https-ptstackoverflowcom-questions-241938-c",
+  "name": "https-ptstackoverflowcom-questions-452043",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,17 +8,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@elastic/apm-rum": "^5.1.1",
-    "@vue/cli-plugin-babel": "4.1.1",
-    "vue": "^2.6.11"
+    "vue": "2.6.10",
+    "vuetify": "2.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "4.1.1",
-    "@vue/cli-service": "4.1.1",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.11"
+    "@vue/cli-plugin-babel": "3.6.0",
+    "@vue/cli-plugin-eslint": "3.6.0",
+    "@vue/cli-service": "3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
     "root": true,
