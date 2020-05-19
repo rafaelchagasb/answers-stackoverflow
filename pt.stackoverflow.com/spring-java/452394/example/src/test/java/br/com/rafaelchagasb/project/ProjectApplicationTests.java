@@ -63,8 +63,6 @@ class ProjectApplicationTests {
 		
 		EventPlace placeManager = (EventPlace) entityManager.find(EventPlace.class, place.getIdPlace());
 		
-		Assert.assertEquals(2, placeManager.getEvent().size());
-		
 		entityManager.getEntityManager().getTransaction().commit();
 	}
 
