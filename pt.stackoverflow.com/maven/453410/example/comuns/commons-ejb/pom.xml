@@ -17,5 +17,13 @@
   		<artifactId>commons</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<!--  simulated offline jar  -->
+  	<dependency>
+      	<groupId>br.com.rafaelchagasb</groupId>
+  		<artifactId>apache-commons</artifactId>
+  		<version>0.0.1</version>
+  		<scope>system</scope>
+  		<systemPath>${project.basedir}/../commons/commons-lang3-3.10.jar</systemPath>
+  	</dependency>
   </dependencies>
 </project>

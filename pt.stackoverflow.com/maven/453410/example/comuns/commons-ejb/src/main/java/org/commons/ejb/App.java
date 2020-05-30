@@ -1,5 +1,6 @@
 package org.commons.ejb;
 
+import org.apache.commons.lang3.StringUtils;
 import org.commons.Utils;
 
 /**
@@ -11,5 +12,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( Utils.upperCase("texto"));
+        
+        System.out.println(StringUtils.upperCase("texto"));
     }
 }
