@@ -1,0 +1,24 @@
+=== JAVA PROPERTIES ===
+Java vendor: Private Build
+Java version: 1.8
+Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+=== OS ENVIRONMENT ===
+User dir: /home/rafael
+=== MAVEN SETTINGS.XML ===
+Offline: false
+=== Maven Properties Guide ===
+Description: ${project.description}
+project.basedir: /home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb
+project.build.directory: /home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb/target
+project.build.outputDirectory:
+									/home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb/target/classes
+project.build.testOutputDirectory:
+									/home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb/target/test-classes
+project.build.sourceDirectory:
+									/home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb/src/main/java
+project.build.testSourceDirectory:
+									/home/rafael/git/stack/pt.stackoverflow.com/maven/453410/example/comuns/commons-ejb/src/test/java
+project.build.finalName: commons-ejb-0.0.1-SNAPSHOT
+project.version: 0.0.1-SNAPSHOT
+settings.localRepository: /home/rafael/.m2/repository
+basic: ${basic}
